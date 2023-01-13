@@ -1,0 +1,149 @@
+
+@media screen and (min-width: 1980px) {
+    header, footer {
+     margin-bottom: 10px;
+    }
+    .text-logo{
+      display: inline;
+    }
+    
+  }
+  @media screen and (max-width: 1980px) {
+    header {
+     
+  background-position: 50%;     
+    }
+    
+  }
+  
+@media screen and (max-width: 450px ){
+  header{
+    
+      background-position: center ;
+  }
+  .text-logo img{
+      width: 150px;
+  }
+  .text-logo h1{
+      font-size: 45px;
+      margin-top: 6rem;
+  }
+  .text-logo p{
+      font-size: 15px;
+  }
+
+  .footer-image{
+      background-position: -1%
+  }
+  .suitcase{
+    height: 120vh;
+    padding: 3rem 1rem;
+}
+
+.suitcase-container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+}
+
+.suitcase .icon{
+    width: 100px;
+    left: -60px;
+    bottom: -12px;
+}
+
+.suitcase-title{
+    display: none;
+}
+
+.suitcase-text{
+    width: 100%;
+    flex-direction: column;
+    padding: 2rem;
+    position: relative;
+}
+
+.suitcase-text h2 {
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+    display: block;
+}
+
+
+.content-suitcase{
+    position: absolute;
+    top: -15%;
+    left: 25%;
+}
+.dropdown-section-container{
+    height: auto;
+    flex-direction: column;
+    padding: 2rem 1rem;
+}
+
+.container{
+    width: 100%;
+}
+
+.dropdown-container{
+    width: 100%;
+    flex-direction: column;
+    align-items: center ;
+}
+.dropdown-section-container .text-description{
+    width: 100%;
+}
+
+.dropdown-section-container img{
+    width: 100px;
+    right: -50px;
+    bottom: -10px;
+}
+
+ .gray  {
+    max-width: 100%;
+    height: 780px;
+}
+.gray .text{
+   
+    height: 780px;
+    margin-top: 350px;
+    margin-bottom: 550px;
+    padding: 30%;
+    font-size: .8rem;
+    text-align: justify;
+ }
+.icon-blue{
+    margin-left: -320px;
+}
+
+ .image-icon  {
+   
+    max-width: 100%;
+    margin-left: -50%;
+    margin-right: -25%;
+    
+}
+.getty{
+    max-width: 100%;
+    height: 300px;
+    margin-right: -25%;
+    margin-left: -300px ;
+    margin-bottom: 10px;
+}
+
+ .icon-yellow{
+    top: 40px;
+    margin-top: 210px;
+    left: 45%;
+}
+
+
+ .interactive-circle-section{
+    height: 756px;
+    margin-top: 35px;
+ }
+   
+}
+
